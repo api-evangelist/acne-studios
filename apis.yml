@@ -1,9 +1,26 @@
 aid: acne-studios
 name: Acne Studios
-description: 'Acne Studios is a company surfaced as a portfolio company of idg-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Acne Studios is a Stockholm-based fashion house founded in 1996 as part
+  of the creative collective ACNE (Ambition to Create Novel Expressions). The company
+  designs and sells ready-to-wear womenswear and menswear, footwear, leather goods,
+  denim, and accessories through its global network of retail stores and its official
+  e-commerce site at acnestudios.com. Surfaced as a portfolio company of idg-capital
+  and added to the API Evangelist network. Acne Studios publishes no public developer
+  API program or developer portal; this profile captures its public web identity and
+  live domain-security posture. Sector: consumer / fashion retail.'
 url: https://raw.githubusercontent.com/api-evangelist/acne-studios/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.acnestudios.com/static/fallback-image/AcneStudios.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -16,6 +33,11 @@ modified: '2026-07-17'
 tags:
 - Company
 - Consumer
+- Fashion
+- Retail
+- Apparel
+- Ecommerce
+- Sweden
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/acne-studios-domain-security.yml
 - type: Website
   url: https://acnestudios.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
