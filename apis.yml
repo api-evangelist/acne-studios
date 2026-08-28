@@ -9,6 +9,17 @@ description: 'Acne Studios is a Stockholm-based fashion house founded in 1996 as
   API program or developer portal; this profile captures its public web identity and
   live domain-security posture. Sector: consumer / fashion retail.'
 url: https://raw.githubusercontent.com/api-evangelist/acne-studios/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
